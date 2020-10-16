@@ -11,8 +11,9 @@ body {
 
 .navigationbar li {
     display: inline-block;
-    padding-left: 15%;
-    margin-top: 4%;
+    padding-left: 10%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
     font-size: 20px;
 }
 
@@ -20,10 +21,36 @@ body {
     text-align: right;
 }
 
+.navigationbar a {
+    color: black;
+    text-decoration: none;
+}
+
+.button {
+    border: none;
+    color: white;
+    background-color: cadetblue;
+    text-align: center;
+    padding: 15px 32px;
+    border-radius: 10px;
+    font-size: 18;
+}
+
 #navigationbar-container {
     width: 60%;
     margin: auto;
-    border: solid red;
+    display: flex;
 }
 
-#button {}
+#logo-nav {
+    width: 100%;
+    margin: auto;
+}
+
+#logo-size {
+    width: 20%;
+}
+
+#bar-size {
+    width: 80%;
+}
