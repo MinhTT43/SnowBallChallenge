@@ -1,0 +1,29 @@
+/* Changes to body */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* CSS for navigation bar */
+
+.navigationbar li {
+    display: inline-block;
+    padding-left: 15%;
+    margin-top: 4%;
+    font-size: 20px;
+}
+
+.navigationbar ul {
+    text-align: right;
+}
+
+#navigationbar-container {
+    width: 60%;
+    margin: auto;
+    border: solid red;
+}
+
+#button {}
