@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-image: url(img/background-img.png);
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 @media only screen and (max-width: 600px) {
@@ -386,6 +387,7 @@ body {
         width: 33%;
         height: auto;
         text-align: center;
+        align-items: center;
     }
     .second-section-img {
         width: 40%;
@@ -395,7 +397,7 @@ body {
         font-size: 2rem;
     }
     .second-container-size p {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     /* Third section placement */
 }
