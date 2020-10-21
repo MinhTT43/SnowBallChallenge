@@ -63,6 +63,7 @@
                 display: flex;
                 justify-content: center;
                 padding-bottom: 25vh;
+                justify-content: center;
             }
             
             .first-box-text {
@@ -70,7 +71,15 @@
             }
             
             .first-box-img {
-                width: 40%;
+                width: 50%;
+                padding-top: 6vh;
+                padding-left: 10%;
+            }
+            /* First container img*/
+            
+            #first-img {
+                display: flex;
+                justify-content: center;
             }
             /* Second section placement*/
             
@@ -119,10 +128,20 @@
                 /* First container / box */
                 .first-box {
                     width: 90%;
+                    display: flex;
+                    justify-content: center;
+                }
+                .first-box-img {
+                    padding-top: 0.5vh;
+                    width: 100%;
                 }
                 /* Font size first container*/
                 .first-box h1 {
                     font-size: 1rem;
+                }
+                /*First container image */
+                #first-img {
+                    width: 100%;
                 }
                 .first-box p {
                     font-size: 0.75rem;
@@ -165,6 +184,10 @@
                 .first-box {
                     width: 90%;
                 }
+                /*First container image */
+                #first-img {
+                    width: 100%;
+                }
                 /* Font size first container*/
                 .first-box h1 {
                     font-size: 2rem;
@@ -204,6 +227,10 @@
                 /* First container / box */
                 .first-box {
                     width: 90%;
+                }
+                /*First container image */
+                #first-img {
+                    width: 100%;
                 }
                 /* Font size first container*/
                 .first-box h1 {
@@ -245,7 +272,11 @@
                 }
                 /* First container / box */
                 .first-box {
-                    width: 60%;
+                    width: 80%;
+                }
+                /*First container image */
+                #first-img {
+                    width: 100%;
                 }
                 /* Font size first container*/
                 .first-box h1 {
