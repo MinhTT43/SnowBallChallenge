@@ -1,401 +1,406 @@
-    body {
-        font-family: 'Roboto', sans-serif;
-        margin: 0;
-        padding: 0;
-        background-image: url(img/background-img.png);
-    }
-    
-    @media only screen and (max-width: 600px) {
-        /* Insert code suitable when max width is 500px*/
-        /* CSS for navigation bar */
-        .navigationbar li {
-            display: inline-block;
-            padding: 5px 5px 5px 10px;
-            font-size: 0.8rem;
-        }
-        .navigationbar ul {
-            text-align: right;
-        }
-        .navigationbar a {
-            color: black;
-            text-decoration: none;
-        }
-        .button {
-            border: none;
-            color: white;
-            background-color: cadetblue;
-            text-align: center;
-            padding: 7.5px 10px;
-            border-radius: 5px;
-            font-size: 0.8rem;
-        }
-        #navigationbar-container {
-            width: 90%;
-            display: flex;
-            margin: auto;
-        }
-        #logo-nav {
-            width: 70%;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 2.5%;
-            display: block;
-        }
-        #logo-size {
-            margin: auto;
-            width: 20%;
-        }
-        #bar-size {
-            width: 80%;
-        }
-        /* First section placement */
-        .first-section-placement {
-            display: flex;
-            justify-content: center;
-        }
-        /* First container / box */
-        .first-box {
-            padding-top: 25vh;
-            padding-bottom: auto;
-            display: flex;
-            justify-content: center;
-            width: 90%;
-            padding-bottom: 25vh;
-        }
-        /* Font size first container*/
-        .first-box h1 {
-            font-size: 1rem;
-        }
-        .first-box p {
-            font-size: 0.75rem;
-        }
-        .first-box-text {
-            width: 40%;
-        }
-        .first-box-img {
-            width: 40%;
-        }
-        /* Second section placement*/
-        .second-section-placement {
-            display: flex;
-            justify-content: center;
-        }
-        .second-container-size {
-            width: 90%;
-            display: flex;
-            justify-content: center;
-            padding-top: 10vh;
-        }
-        .second-container {
-            width: 33%;
-            height: auto;
-            text-align: center;
-        }
-        .second-section-img {
-            width: 50%;
-            border-radius: 100%;
-        }
-        /* Font size second container*/
-        .second-container-size h1 {
-            font-size: 0.75rem;
-        }
-        .second-container-size p {
-            font-size: 0.5rem;
-        }
-    }
-    
-    @media only screen and (max-width: 992px) and (min-width: 600px) {
-        /* Insert code suitable for width between 500px and 831px */
-        /* CSS for navigation bar */
-        .navigationbar li {
-            display: inline-block;
-            padding: 7.5px 7.5px 7.5px 12.5px;
-            font-size: 1rem;
-        }
-        .navigationbar ul {
-            text-align: right;
-        }
-        .navigationbar a {
-            color: black;
-            text-decoration: none;
-        }
-        .button {
-            border: none;
-            color: white;
-            background-color: cadetblue;
-            text-align: center;
-            padding: 10px 12.5px;
-            border-radius: 6px;
-            font-size: 1rem;
-        }
-        #navigationbar-container {
-            width: 90%;
-            display: flex;
-            margin: auto;
-        }
-        #logo-nav {
-            width: 70%;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 2.5%;
-            display: block;
-        }
-        #logo-size {
-            margin: auto;
-            width: 20%;
-        }
-        #bar-size {
-            width: 80%;
-        }
-        /* First section placement */
-        .first-section-placement {
-            display: flex;
-            justify-content: center;
-        }
-        /* First container / box */
-        .first-box {
-            padding-top: 25vh;
-            padding-bottom: auto;
-            display: flex;
-            justify-content: center;
-            width: 90%;
-            padding-bottom: 25vh;
-        }
-        /* Font size first container*/
-        .first-box h1 {
-            font-size: 2rem;
-        }
-        .first-box p {
-            font-size: 1.25rem;
-        }
-        .first-box-text {
-            width: 40%;
-        }
-        .first-box-img {
-            width: 40%;
-        }
-        /* Second section placement*/
-        .second-section-placement {
-            display: flex;
-            justify-content: center;
-        }
-        .second-container-size {
-            width: 90%;
-            display: flex;
-            justify-content: center;
-            padding-top: 10vh;
-        }
-        .second-container {
-            width: 33%;
-            height: auto;
-            text-align: center;
-        }
-        .second-section-img {
-            width: 50%;
-            border-radius: 100%;
-        }
-        /* Font size second container*/
-        .second-container-size h1 {
-            font-size: 1.25rem;
-        }
-        .second-container-size p {
-            font-size: 0.75rem;
-        }
-    }
-    
-    @media only screen and (max-width: 1024px) and (min-width: 993px) {
-        /* Insert code suitable for width between 831px and 1024px */
-        .navigationbar li {
-            display: inline-block;
-            padding: 10px 10px 10px 15px;
-            font-size: 1.25rem;
-        }
-        .navigationbar ul {
-            text-align: right;
-        }
-        .navigationbar a {
-            color: black;
-            text-decoration: none;
-        }
-        .button {
-            border: none;
-            color: white;
-            background-color: cadetblue;
-            text-align: center;
-            padding: 12.5px 15px;
-            border-radius: 7px;
-            font-size: 1.25rem;
-        }
-        #navigationbar-container {
-            width: 90%;
-            display: flex;
-            margin: auto;
-        }
-        #logo-nav {
-            width: 70%;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 2.5%;
-            display: block;
-        }
-        #logo-size {
-            margin: auto;
-            width: 40%;
-        }
-        #bar-size {
-            width: 80%;
-        }
-        /* First section placement */
-        .first-section-placement {
-            display: flex;
-            justify-content: center;
-        }
-        /* First container / box */
-        .first-box {
-            padding-top: 25vh;
-            padding-bottom: auto;
-            display: flex;
-            justify-content: center;
-            width: 90%;
-            padding-bottom: 25vh;
-        }
-        /* Font size first container*/
-        .first-box h1 {
-            font-size: 3.5rem;
-        }
-        .first-box p {
-            font-size: 1.5rem;
-        }
-        .first-box-text {
-            width: 40%;
-        }
-        .first-box-img {
-            width: 40%;
-        }
-        /* Second section placement*/
-        .second-section-placement {
-            display: flex;
-            justify-content: center;
-        }
-        .second-container-size {
-            width: 90%;
-            display: flex;
-            justify-content: center;
-            padding-top: 10vh;
-        }
-        .second-container {
-            width: 33%;
-            height: auto;
-            text-align: center;
-        }
-        .second-section-img {
-            width: 50%;
-            border-radius: 100%;
-        }
-        /* Font size second container*/
-        .second-container-size h1 {
-            font-size: 3.5rem;
-        }
-        .second-container-size p {
-            font-size: 1.25rem;
-        }
-    }
-    
-    @media only screen and (min-width: 1025px) {
-        /* Insert code suitable for width more than 1025px */
-        /* CSS for navigation bar */
-        .navigationbar li {
-            display: inline-block;
-            padding: 12.5px 12.5px 12.5px 17.5px;
-            font-size: 1.25rem;
-        }
-        .navigationbar ul {
-            text-align: right;
-        }
-        .navigationbar a {
-            color: black;
-            text-decoration: none;
-        }
-        .button {
-            border: none;
-            color: white;
-            background-color: cadetblue;
-            text-align: center;
-            padding: 15px 17.5px;
-            border-radius: 8px;
-            font-size: 1.25rem;
-        }
-        #navigationbar-container {
-            width: 50%;
-            display: flex;
-            margin: auto;
-        }
-        #logo-nav {
-            width: 70%;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 2.5%;
-            display: block;
-        }
-        #logo-size {
-            margin: auto;
-            width: 40%;
-        }
-        #bar-size {
-            width: 80%;
-        }
-        /* First section placement */
-        .first-section-placement {
-            display: flex;
-            justify-content: center;
-        }
-        /* First container / box */
-        .first-box {
-            padding-top: 25vh;
-            padding-bottom: 25vh;
-            padding-bottom: auto;
-            display: flex;
-            justify-content: center;
-            width: 60%;
-        }
-        /* Font size first container*/
-        .first-box h1 {
-            font-size: 4rem;
-        }
-        .first-box p {
-            font-size: 2rem;
-        }
-        .first-box-text {
-            width: 50%;
-        }
-        .first-box-img {
-            width: 50%;
-        }
-        /* Second section placement*/
-        .second-section-placement {
-            display: flex;
-            justify-content: center;
-        }
-        .second-container-size {
-            width: 80%;
-            display: flex;
-            justify-content: center;
-            padding-top: 10vh;
-        }
-        .second-container {
-            width: 33%;
-            height: auto;
-            text-align: center;
-        }
-        .second-section-img {
-            width: 40%;
-            border-radius: 100%;
-        }
-        /* Font size second container*/
-        .second-container-size h1 {
-            font-size: 2rem;
-        }
-        .second-container-size p {
-            font-size: 1rem;
-        }
-    }
+            body {
+                font-family: 'Roboto', sans-serif;
+                margin: 0;
+                padding: 0;
+                background-image: url(img/background-img.png);
+            }
+            
+            @media only screen and (max-width: 600px) {
+                /* Insert code suitable when max width is 500px*/
+                /* CSS for navigation bar */
+                .navigationbar li {
+                    display: inline-block;
+                    padding: 5px 5px 5px 10px;
+                    font-size: 0.8rem;
+                }
+                .navigationbar ul {
+                    text-align: right;
+                }
+                .navigationbar a {
+                    color: black;
+                    text-decoration: none;
+                }
+                .button {
+                    border: none;
+                    color: white;
+                    background-color: cadetblue;
+                    text-align: center;
+                    padding: 7.5px 10px;
+                    border-radius: 5px;
+                    font-size: 0.8rem;
+                }
+                #navigationbar-container {
+                    width: 90%;
+                    display: flex;
+                    margin: auto;
+                }
+                #logo-nav {
+                    width: 70%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 2.5%;
+                    display: block;
+                }
+                #logo-size {
+                    margin: auto;
+                    width: 20%;
+                }
+                #bar-size {
+                    width: 80%;
+                }
+                /* First section placement */
+                .first-section-placement {
+                    display: flex;
+                    justify-content: center;
+                }
+                /* First container / box */
+                .first-box {
+                    padding-top: 25vh;
+                    padding-bottom: auto;
+                    display: flex;
+                    justify-content: center;
+                    width: 90%;
+                    padding-bottom: 25vh;
+                }
+                /* Font size first container*/
+                .first-box h1 {
+                    font-size: 1rem;
+                }
+                .first-box p {
+                    font-size: 0.75rem;
+                }
+                .first-box-text {
+                    width: 40%;
+                }
+                .first-box-img {
+                    width: 40%;
+                }
+                /* Second section placement*/
+                .second-section-placement {
+                    display: flex;
+                    justify-content: center;
+                }
+                .second-container-size {
+                    width: 90%;
+                    display: flex;
+                    justify-content: center;
+                    padding-top: 10vh;
+                    padding-bottom: 10vh;
+                }
+                .second-container {
+                    width: 33%;
+                    height: auto;
+                    text-align: center;
+                }
+                .second-section-img {
+                    width: 50%;
+                    border-radius: 100%;
+                }
+                /* Font size second container*/
+                .second-container-size h1 {
+                    font-size: 0.75rem;
+                }
+                .second-container-size p {
+                    font-size: 0.5rem;
+                }
+            }
+            
+            @media only screen and (max-width: 992px) and (min-width: 600px) {
+                /* Insert code suitable for width between 500px and 831px */
+                /* CSS for navigation bar */
+                .navigationbar li {
+                    display: inline-block;
+                    padding: 7.5px 7.5px 7.5px 12.5px;
+                    font-size: 1rem;
+                }
+                .navigationbar ul {
+                    text-align: right;
+                }
+                .navigationbar a {
+                    color: black;
+                    text-decoration: none;
+                }
+                .button {
+                    border: none;
+                    color: white;
+                    background-color: cadetblue;
+                    text-align: center;
+                    padding: 10px 12.5px;
+                    border-radius: 6px;
+                    font-size: 1rem;
+                }
+                #navigationbar-container {
+                    width: 90%;
+                    display: flex;
+                    margin: auto;
+                }
+                #logo-nav {
+                    width: 70%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 2.5%;
+                    display: block;
+                }
+                #logo-size {
+                    margin: auto;
+                    width: 20%;
+                }
+                #bar-size {
+                    width: 80%;
+                }
+                /* First section placement */
+                .first-section-placement {
+                    display: flex;
+                    justify-content: center;
+                }
+                /* First container / box */
+                .first-box {
+                    padding-top: 25vh;
+                    padding-bottom: auto;
+                    display: flex;
+                    justify-content: center;
+                    width: 90%;
+                    padding-bottom: 25vh;
+                }
+                /* Font size first container*/
+                .first-box h1 {
+                    font-size: 2rem;
+                }
+                .first-box p {
+                    font-size: 1.25rem;
+                }
+                .first-box-text {
+                    width: 40%;
+                }
+                .first-box-img {
+                    width: 40%;
+                }
+                /* Second section placement*/
+                .second-section-placement {
+                    display: flex;
+                    justify-content: center;
+                }
+                .second-container-size {
+                    width: 90%;
+                    display: flex;
+                    justify-content: center;
+                    padding-top: 10vh;
+                    padding-bottom: 10vh;
+                }
+                .second-container {
+                    width: 33%;
+                    height: auto;
+                    text-align: center;
+                }
+                .second-section-img {
+                    width: 50%;
+                    border-radius: 100%;
+                }
+                /* Font size second container*/
+                .second-container-size h1 {
+                    font-size: 1.25rem;
+                }
+                .second-container-size p {
+                    font-size: 0.75rem;
+                }
+            }
+            
+            @media only screen and (max-width: 1024px) and (min-width: 993px) {
+                /* Insert code suitable for width between 831px and 1024px */
+                .navigationbar li {
+                    display: inline-block;
+                    padding: 10px 10px 10px 15px;
+                    font-size: 1.25rem;
+                }
+                .navigationbar ul {
+                    text-align: right;
+                }
+                .navigationbar a {
+                    color: black;
+                    text-decoration: none;
+                }
+                .button {
+                    border: none;
+                    color: white;
+                    background-color: cadetblue;
+                    text-align: center;
+                    padding: 12.5px 15px;
+                    border-radius: 7px;
+                    font-size: 1.25rem;
+                }
+                #navigationbar-container {
+                    width: 90%;
+                    display: flex;
+                    margin: auto;
+                }
+                #logo-nav {
+                    width: 70%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 2.5%;
+                    display: block;
+                }
+                #logo-size {
+                    margin: auto;
+                    width: 40%;
+                }
+                #bar-size {
+                    width: 80%;
+                }
+                /* First section placement */
+                .first-section-placement {
+                    display: flex;
+                    justify-content: center;
+                }
+                /* First container / box */
+                .first-box {
+                    padding-top: 25vh;
+                    padding-bottom: auto;
+                    display: flex;
+                    justify-content: center;
+                    width: 90%;
+                    padding-bottom: 25vh;
+                }
+                /* Font size first container*/
+                .first-box h1 {
+                    font-size: 3.5rem;
+                }
+                .first-box p {
+                    font-size: 1.5rem;
+                }
+                .first-box-text {
+                    width: 40%;
+                }
+                .first-box-img {
+                    width: 40%;
+                }
+                /* Second section placement*/
+                .second-section-placement {
+                    display: flex;
+                    justify-content: center;
+                }
+                .second-container-size {
+                    width: 90%;
+                    display: flex;
+                    justify-content: center;
+                    padding-top: 10vh;
+                    padding-bottom: 10vh;
+                }
+                .second-container {
+                    width: 33%;
+                    height: auto;
+                    text-align: center;
+                }
+                .second-section-img {
+                    width: 50%;
+                    border-radius: 100%;
+                }
+                /* Font size second container*/
+                .second-container-size h1 {
+                    font-size: 3.5rem;
+                }
+                .second-container-size p {
+                    font-size: 1.25rem;
+                }
+            }
+            
+            @media only screen and (min-width: 1025px) {
+                /* Insert code suitable for width more than 1025px */
+                /* CSS for navigation bar */
+                .navigationbar li {
+                    display: inline-block;
+                    padding: 12.5px 12.5px 12.5px 17.5px;
+                    font-size: 1.25rem;
+                }
+                .navigationbar ul {
+                    text-align: right;
+                }
+                .navigationbar a {
+                    color: black;
+                    text-decoration: none;
+                }
+                .button {
+                    border: none;
+                    color: white;
+                    background-color: cadetblue;
+                    text-align: center;
+                    padding: 15px 17.5px;
+                    border-radius: 8px;
+                    font-size: 1.25rem;
+                }
+                #navigationbar-container {
+                    width: 50%;
+                    display: flex;
+                    margin: auto;
+                }
+                #logo-nav {
+                    width: 70%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 2.5%;
+                    display: block;
+                }
+                #logo-size {
+                    margin: auto;
+                    width: 40%;
+                }
+                #bar-size {
+                    width: 80%;
+                }
+                /* First section placement */
+                .first-section-placement {
+                    display: flex;
+                    justify-content: center;
+                }
+                /* First container / box */
+                .first-box {
+                    padding-top: 25vh;
+                    padding-bottom: 25vh;
+                    padding-bottom: auto;
+                    display: flex;
+                    justify-content: center;
+                    width: 60%;
+                }
+                /* Font size first container*/
+                .first-box h1 {
+                    font-size: 4rem;
+                }
+                .first-box p {
+                    font-size: 2rem;
+                }
+                .first-box-text {
+                    width: 50%;
+                }
+                .first-box-img {
+                    width: 50%;
+                }
+                /* Second section placement*/
+                .second-section-placement {
+                    display: flex;
+                    justify-content: center;
+                }
+                .second-container-size {
+                    width: 80%;
+                    display: flex;
+                    justify-content: center;
+                    padding-top: 10vh;
+                    padding-bottom: 10vh;
+                }
+                .second-container {
+                    width: 33%;
+                    height: auto;
+                    text-align: center;
+                }
+                .second-section-img {
+                    width: 40%;
+                    border-radius: 100%;
+                }
+                /* Font size second container*/
+                .second-container-size h1 {
+                    font-size: 2rem;
+                }
+                .second-container-size p {
+                    font-size: 1rem;
+                }
+                /* Third section placement */
+            }
