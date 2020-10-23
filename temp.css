@@ -1,300 +1,407 @@
-            body {
-                font-family: 'Roboto', sans-serif;
-                margin: 0;
-                padding: 0;
-                background-image: url(img/background-img.png);
-                font-family: 'Nanum Gothic', sans-serif;
-            }
-            /* CSS for navigation bar */
-            
-            .navigationbar li {
-                display: inline-block;
-            }
-            
-            .navigationbar ul {
-                text-align: right;
-            }
-            
-            .navigationbar a {
-                color: black;
-                text-decoration: none;
-            }
-            
-            .button {
-                border: none;
-                color: white;
-                background-color: cadetblue;
-                text-align: center;
-                border-radius: 5px;
-            }
-            
-            #navigationbar-container {
-                width: 90%;
-                display: flex;
-                margin: auto;
-            }
-            
-            #logo-nav {
-                width: 70%;
-                margin-left: auto;
-                margin-right: auto;
-                margin-top: 2.5%;
-                display: block;
-            }
-            
-            #logo-size {
-                margin: auto;
-            }
-            
-            #bar-size {
-                width: 80%;
-            }
-            /* First section placement */
-            
-            .first-section-placement {
-                display: flex;
-                justify-content: center;
-            }
-            /* First container / box */
-            
-            .first-box {
-                padding-top: 25vh;
-                padding-bottom: auto;
-                display: flex;
-                justify-content: center;
-                padding-bottom: 25vh;
-                justify-content: center;
-            }
-            
-            .first-box-text {
-                width: 40%;
-            }
-            
-            .first-box-img {
-                width: 50%;
-                padding-top: 6vh;
-                padding-left: 10%;
-            }
-            /* First container img*/
-            
-            #first-img {
-                display: flex;
-                justify-content: center;
-            }
-            /* Second section placement*/
-            
-            .second-section-placement {
-                display: flex;
-                justify-content: center;
-            }
-            
-            .second-container-size {
-                display: flex;
-                justify-content: center;
-                padding-top: 10vh;
-                padding-bottom: 10vh;
-            }
-            
-            .second-container {
-                width: 33%;
-                height: auto;
-                text-align: center;
-            }
-            
-            .second-section-img {
-                width: 50%;
-            }
-            /* Font size second container*/
-            
-            @media only screen and (max-width: 600px) {
-                /* Insert code suitable when max width is 500px*/
-                /* CSS for navigation bar */
-                .navigationbar li {
-                    padding: 5px 5px 5px 10px;
-                    font-size: 0.8rem;
-                }
-                .button {
-                    padding: 7.5px 10px;
-                    font-size: 0.8rem;
-                    border-radius: 5px;
-                }
-                #navigationbar-container {
-                    width: 90%;
-                }
-                #logo-size {
-                    padding: 7.5px 10px;
-                    width: 20%;
-                }
-                /* First container / box */
-                .first-box {
-                    width: 90%;
-                    display: flex;
-                    justify-content: center;
-                }
-                .first-box-img {
-                    padding-top: 0.5vh;
-                    width: 100%;
-                }
-                /* Font size first container*/
-                .first-box h1 {
-                    font-size: 1rem;
-                }
-                /*First container image */
-                #first-img {
-                    width: 100%;
-                }
-                .first-box p {
-                    font-size: 0.75rem;
-                }
-                /* Second section */
-                .second-container-size {
-                    width: 90%;
-                }
-                .second-section-img {
-                    width: 50%;
-                }
-                /* Font size second container*/
-                .second-container-size h1 {
-                    font-size: 0.75rem;
-                }
-                .second-container-size p {
-                    font-size: 0.5rem;
-                }
-            }
-            
-            @media only screen and (max-width: 992px) and (min-width: 600px) {
-                /* Insert code suitable for width between 500px and 831px */
-                /* CSS for navigation bar */
-                .navigationbar li {
-                    padding: 7.5px 7.5px 7.5px 12.5px;
-                    font-size: 1rem;
-                }
-                .button {
-                    padding: 10px 12.5px;
-                    border-radius: 6px;
-                    font-size: 1rem;
-                }
-                #navigationbar-container {
-                    width: 90%;
-                }
-                #logo-size {
-                    width: 20%;
-                }
-                /* First container / box */
-                .first-box {
-                    width: 90%;
-                }
-                /*First container image */
-                #first-img {
-                    width: 100%;
-                }
-                /* Font size first container*/
-                .first-box h1 {
-                    font-size: 2rem;
-                }
-                .first-box p {
-                    font-size: 1.25rem;
-                }
-                /* Second section */
-                .second-container-size {
-                    width: 90%;
-                }
-                /* Font size second container*/
-                .second-container-size h1 {
-                    font-size: 1.25rem;
-                }
-                .second-container-size p {
-                    font-size: 0.75rem;
-                }
-            }
-            
-            @media only screen and (max-width: 1024px) and (min-width: 993px) {
-                /* Insert code suitable for width between 831px and 1024px */
-                .navigationbar li {
-                    padding: 10px 10px 10px 15px;
-                    font-size: 1.25rem;
-                }
-                .button {
-                    padding: 12.5px 15px;
-                    font-size: 1.25rem;
-                }
-                #navigationbar-container {
-                    width: 90%;
-                }
-                #logo-size {
-                    width: 40%;
-                }
-                /* First container / box */
-                .first-box {
-                    width: 90%;
-                }
-                /*First container image */
-                #first-img {
-                    width: 100%;
-                }
-                /* Font size first container*/
-                .first-box h1 {
-                    font-size: 3.5rem;
-                }
-                .first-box p {
-                    font-size: 1.5rem;
-                }
-                /* Second section placement*/
-                .second-container-size {
-                    width: 90%;
-                }
-                /* Font size second container*/
-                .second-container-size h1 {
-                    font-size: 3.5rem;
-                }
-                .second-container-size p {
-                    font-size: 1.25rem;
-                }
-            }
-            
-            @media only screen and (min-width: 1025px) {
-                /* Insert code suitable for width more than 1025px */
-                /* CSS for navigation bar */
-                .navigationbar li {
-                    padding: 12.5px 12.5px 12.5px 17.5px;
-                    font-size: 1.25rem;
-                }
-                .button {
-                    padding: 15px 17.5px;
-                    border-radius: 8px;
-                    font-size: 1.25rem;
-                }
-                #navigationbar-container {
-                    width: 100%;
-                }
-                #logo-size {
-                    width: 30%;
-                }
-                /* First container / box */
-                .first-box {
-                    width: 80%;
-                }
-                /*First container image */
-                #first-img {
-                    width: 100%;
-                }
-                /* Font size first container*/
-                .first-box h1 {
-                    font-size: 4rem;
-                }
-                .first-box p {
-                    font-size: 2rem;
-                }
-                /* Second section placement*/
-                .second-container-size {
-                    width: 80%;
-                }
-                /* Font size second container*/
-                .second-container-size h1 {
-                    font-size: 2rem;
-                }
-                .second-container-size p {
-                    font-size: 1.5rem;
-                }
-                /* Third section placement */
-            }
+                       body {
+                           font-family: 'Roboto', sans-serif;
+                           margin: 0;
+                           padding: 0;
+                           background-image: url(img/background-img.png);
+                           font-family: 'Nanum Gothic', sans-serif;
+                           margin-bottom: 10%;
+                       }
+                       /* CSS for navigation bar */
+                       
+                       .navigationbar li {
+                           display: inline-block;
+                       }
+                       
+                       .navigationbar ul {
+                           text-align: right;
+                       }
+                       
+                       .navigationbar a {
+                           color: black;
+                           text-decoration: none;
+                       }
+                       
+                       .button {
+                           border: none;
+                           color: white;
+                           background-color: cadetblue;
+                           text-align: center;
+                           border-radius: 5px;
+                       }
+                       
+                       #navigationbar-container {
+                           width: 90%;
+                           display: flex;
+                           margin: auto;
+                       }
+                       
+                       #logo-nav {
+                           width: 70%;
+                           margin-left: auto;
+                           margin-right: auto;
+                           margin-top: 2.5%;
+                           display: block;
+                       }
+                       
+                       #logo-size {
+                           margin: auto;
+                       }
+                       
+                       #bar-size {
+                           width: 80%;
+                       }
+                       /* First section placement */
+                       
+                       .first-section-placement {
+                           display: flex;
+                           justify-content: center;
+                       }
+                       /* First container / box */
+                       
+                       .first-box {
+                           padding-top: 25vh;
+                           padding-bottom: auto;
+                           display: flex;
+                           justify-content: center;
+                           padding-bottom: 25vh;
+                           justify-content: center;
+                       }
+                       
+                       .first-box-text {
+                           width: 40%;
+                       }
+                       
+                       .first-box-img {
+                           width: 50%;
+                           margin: auto;
+                       }
+                       /* First container img*/
+                       
+                       #first-img {
+                           display: flex;
+                           justify-content: center;
+                       }
+                       /* Second section placement*/
+                       
+                       .second-section-placement {
+                           display: flex;
+                           justify-content: center;
+                       }
+                       
+                       .second-container-size {
+                           display: flex;
+                           justify-content: center;
+                           padding-top: 10vh;
+                           padding-bottom: 10vh;
+                       }
+                       
+                       .second-container {
+                           width: 33%;
+                           height: auto;
+                           text-align: center;
+                       }
+                       
+                       .second-container p {
+                           padding-left: 4%;
+                           padding-right: 4%;
+                       }
+                       
+                       .second-section-img {
+                           width: 50%;
+                       }
+                       /* Third section placement */
+                       
+                       .third-section-placement {
+                           width: 100%;
+                           height: auto;
+                           display: flex;
+                           justify-content: center;
+                       }
+                       /*Third container - text size and img size */
+                       
+                       .third-container-size {
+                           width: 80%;
+                           display: flex;
+                           justify-content: center;
+                       }
+                       
+                       .third-container-img {
+                           width: 40%;
+                           margin-top: auto;
+                           margin-bottom: auto;
+                           margin-left: auto;
+                       }
+                       
+                       .third-container-txt {
+                           width: 60%;
+                           padding-top: 4%;
+                           padding-bottom: 2vh;
+                           text-align: center;
+                       }
+                       /* Third section size*/
+                       
+                       #third-img {
+                           width: 80%;
+                           height: auto;
+                       }
+                       
+                       .fourth-section-placement {
+                           width: 100%;
+                           height: auto;
+                           display: flex;
+                           justify-content: center;
+                       }
+                       
+                       .fourth-container {
+                           width: 60%;
+                           text-align: center;
+                       }
+                       
+                       footer .contact {
+                           text-align: center;
+                           border: solid red;
+                       }
+                       
+                       @media only screen and (max-width: 600px) {
+                           /* Insert code suitable when max width is 500px*/
+                           /* CSS for navigation bar */
+                           .navigationbar li {
+                               padding: 5px 5px 5px 10px;
+                               font-size: 0.8rem;
+                           }
+                           .button {
+                               padding: 7.5px 10px;
+                               font-size: 0.8rem;
+                               border-radius: 5px;
+                           }
+                           #navigationbar-container {
+                               width: 90%;
+                           }
+                           #logo-size {
+                               padding: 7.5px 10px;
+                               width: 20%;
+                           }
+                           /* First container / box */
+                           .first-box {
+                               width: 90%;
+                               display: flex;
+                               justify-content: center;
+                           }
+                           .first-box-img {
+                               padding-top: 0.5vh;
+                               width: 100%;
+                           }
+                           /* Font size first container*/
+                           .first-box h1 {
+                               font-size: 1rem;
+                           }
+                           /*First container image */
+                           #first-img {
+                               width: 100%;
+                           }
+                           .first-box p {
+                               font-size: 0.75rem;
+                           }
+                           /* Second section */
+                           .second-container-size {
+                               width: 90%;
+                           }
+                           .second-section-img {
+                               width: 50%;
+                           }
+                           /* Font size second container*/
+                           .second-container-size h1 {
+                               font-size: 0.75rem;
+                           }
+                           .second-container-size p {
+                               font-size: 0.5rem;
+                           }
+                           /* Third container*/
+                           .third-container-txt h1 {
+                               font-size: 1.25rem;
+                           }
+                           .third-container-txt p {
+                               font-size: 0.75rem;
+                           }
+                           .fourth-container p {
+                               font-size: 0.75rem;
+                           }
+                           .fourth-container h1 {
+                               font-size: 1.25rem;
+                           }
+                       }
+                       
+                       @media only screen and (max-width: 992px) and (min-width: 600px) {
+                           /* Insert code suitable for width between 500px and 831px */
+                           /* CSS for navigation bar */
+                           .navigationbar li {
+                               padding: 7.5px 7.5px 7.5px 12.5px;
+                               font-size: 1rem;
+                           }
+                           .button {
+                               padding: 10px 12.5px;
+                               border-radius: 6px;
+                               font-size: 1rem;
+                           }
+                           #navigationbar-container {
+                               width: 90%;
+                           }
+                           #logo-size {
+                               width: 20%;
+                           }
+                           /* First container / box */
+                           .first-box {
+                               width: 90%;
+                           }
+                           /*First container image */
+                           #first-img {
+                               width: 100%;
+                           }
+                           /* Font size first container*/
+                           .first-box h1 {
+                               font-size: 2rem;
+                           }
+                           .first-box p {
+                               font-size: 1.25rem;
+                           }
+                           /* Second section */
+                           .second-container-size {
+                               width: 100%;
+                           }
+                           /* Font size second container*/
+                           .second-container-size h1 {
+                               font-size: 1.25rem;
+                           }
+                           .second-container-size p {
+                               font-size: 0.75rem;
+                           }
+                           /* Third container*/
+                           .third-container-txt h1 {
+                               font-size: 1.5rem;
+                           }
+                           .third-container-txt p {
+                               font-size: 1rem;
+                           }
+                           .fourth-container p {
+                               font-size: 1rem;
+                           }
+                           .fourth-container h1 {
+                               font-size: 1.5rem;
+                           }
+                       }
+                       
+                       @media only screen and (max-width: 1024px) and (min-width: 993px) {
+                           /* Insert code suitable for width between 831px and 1024px */
+                           .navigationbar li {
+                               padding: 10px 10px 10px 15px;
+                               font-size: 1.25rem;
+                           }
+                           .button {
+                               padding: 12.5px 15px;
+                               font-size: 1.25rem;
+                           }
+                           #navigationbar-container {
+                               width: 90%;
+                           }
+                           #logo-size {
+                               width: 40%;
+                           }
+                           /* First container / box */
+                           .first-box {
+                               width: 90%;
+                           }
+                           /*First container image */
+                           #first-img {
+                               width: 100%;
+                           }
+                           /* Font size first container*/
+                           .first-box h1 {
+                               font-size: 3rem;
+                           }
+                           .first-box p {
+                               font-size: 1.5rem;
+                           }
+                           /* Second section placement*/
+                           .second-container-size {
+                               width: 90%;
+                           }
+                           /* Font size second container*/
+                           .second-container-size h1 {
+                               font-size: 1.5rem;
+                           }
+                           .second-container-size p {
+                               font-size: 1rem;
+                           }
+                           /* Third container*/
+                           .third-container-txt h1 {
+                               font-size: 1.5rem;
+                           }
+                           .third-container-txt p {
+                               font-size: 1rem;
+                           }
+                           .fourth-container p {
+                               font-size: 1rem;
+                           }
+                           .fourth-container h1 {
+                               font-size: 1.5rem;
+                           }
+                       }
+                       
+                       @media only screen and (min-width: 1025px) {
+                           /* Insert code suitable for width more than 1025px */
+                           /* CSS for navigation bar */
+                           .navigationbar li {
+                               padding: 12.5px 12.5px 12.5px 17.5px;
+                               font-size: 1.25rem;
+                           }
+                           .button {
+                               padding: 15px 17.5px;
+                               border-radius: 8px;
+                               font-size: 1.25rem;
+                           }
+                           #navigationbar-container {
+                               width: 100%;
+                           }
+                           #logo-size {
+                               width: 30%;
+                           }
+                           /* First container / box */
+                           .first-box {
+                               width: 80%;
+                           }
+                           /*First container image */
+                           #first-img {
+                               width: 100%;
+                           }
+                           /* Font size first container*/
+                           .first-box h1 {
+                               font-size: 4rem;
+                           }
+                           .first-box p {
+                               font-size: 2rem;
+                           }
+                           /* Second section placement*/
+                           .second-container-size {
+                               width: 80%;
+                           }
+                           /* Font size second container*/
+                           .second-container-size h1 {
+                               font-size: 1.5rem;
+                           }
+                           .second-container-size p {
+                               font-size: 1.2rem;
+                           }
+                           /* Third container*/
+                           .third-container-txt h1 {
+                               font-size: 2rem;
+                           }
+                           .third-container-txt p {
+                               font-size: 1.2rem;
+                           }
+                           .fourth-container p {
+                               font-size: 1.2rem;
+                           }
+                           .fourth-container h1 {
+                               font-size: 2rem;
+                           }
+                       }
