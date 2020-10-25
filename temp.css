@@ -54,14 +54,12 @@ body {
     width: 80%;
 }
 
-
 /* First section placement */
 
 .first-section-placement {
     display: flex;
     justify-content: center;
 }
-
 
 /* First container / box */
 
@@ -76,10 +74,9 @@ body {
     width: 400px;
 }
 
-.first-box-img {
-    width: 50%;
+.first-img {
+    width: 300px;
 }
-
 
 /* Second section placement*/
 
@@ -109,7 +106,6 @@ body {
     width: 150px;
 }
 
-
 /* Third section placement */
 
 .third-section-placement {
@@ -118,7 +114,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-
 
 /*Third container - text size and img size */
 
@@ -133,13 +128,13 @@ body {
     align-content: center;
 }
 
-
 /* Third section size*/
 
 #third-img {
     width: 300px;
     height: auto;
     margin-right: 30px;
+    transform: scaleX(-1);
 }
 
 .fourth-section-placement {
@@ -153,6 +148,10 @@ body {
 
 .fourth-container {
     text-align: center;
+}
+
+.fourth-container h1 {
+    font-size: 1.25rem;
 }
 
 footer {
@@ -214,25 +213,25 @@ footer a {
     }
     /* Font size first container*/
     .first-box h1 {
-        font-size: 2rem;
+        font-size: 2em;
     }
     /*First container image */
     #first-img {
         width: 400px;
     }
     .first-box p {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     /* Second section */
     .second-container-size {
         width: 90%;
     }
     .second-section-img {
-        width: 50%;
+        width: 30%;
     }
     /* Font size second container*/
     .second-container-size h1 {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
     .second-container-size p {
         font-size: 1rem;
@@ -246,7 +245,7 @@ footer a {
     }
     .third-container-txt h1 {
         text-align: center;
-        font-size: 1.5rem;
+        font-size: rem;
     }
     .third-container-img {
         align-items: center;
@@ -257,20 +256,20 @@ footer a {
         text-align: center;
     }
     .fourth-section-placement {
-        height: 20vh;
+        height: 40vh;
     }
     .fourth-container p {
-        width: 300px;
-    }
-    .fourth-container p {
-        font-size: 0.75rem;
+        width: 400px;
     }
     .fourth-container h1 {
-        font-size: 1.25rem;
+        font-size: 1.75rem;
+    }
+    .fourth-container p {
+        font-size: 1rem;
     }
 }
 
-@media only screen and (max-width: 1024px) and (min-width: 600px) {
+@media only screen and (max-width: 1025px) and (min-width: 601px) {
     body {
         overflow-x: hidden;
     }
@@ -297,17 +296,18 @@ footer a {
         width: 150px;
     }
     .first-box {
-        padding: 10vh;
-        width: 90%;
+        width: 500px;
         justify-content: center;
     }
+    .first-box-text {
+        width: 500px;
+    }
     .first-box-img {
-        padding-top: 0.5vh;
         width: 100%;
     }
     /* Font size first container*/
     .first-box h1 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
     /*First container image */
     #first-img {
@@ -325,7 +325,7 @@ footer a {
     }
     /* Font size second container*/
     .second-container-size h1 {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
     .second-container-size p {
         font-size: 1rem;
@@ -358,10 +358,6 @@ footer a {
     }
 }
 
-.fourth-container h1 {
-    font-size: 1.25rem;
-}
-
 @media only screen and (min-width: 1025px) {
     /* Insert code suitable for width more than 1025px */
     /* CSS for navigation bar */
@@ -380,6 +376,10 @@ footer a {
     #navigationbar-container {
         width: 100%;
     }
+    .first-box-text {
+        width: 600px;
+        margin-right: 20px;
+    }
     .first-box {
         display: flex;
         align-items: center;
@@ -388,10 +388,10 @@ footer a {
         width: 600px;
     }
     .first-box h1 {
-        font-size: 4rem;
+        font-size: 2.25rem;
     }
     .first-box p {
-        font-size: 2rem;
+        font-size: 1.75rem;
     }
     /* Second section placement*/
     .second-container-size {
@@ -400,10 +400,10 @@ footer a {
     }
     /* Font size second container*/
     .second-container-size h1 {
-        font-size: 1.5rem;
+        font-size: 2.25rem;
     }
     .second-container-size p {
-        font-size: 1.2rem;
+        font-size: 1.75rem;
     }
     /* Third container*/
     .third-section-placement {
@@ -419,11 +419,14 @@ footer a {
     .third-container-txt p {
         font-size: 1.2rem;
     }
+    .third-container-img {
+        margin-right: 70px;
+    }
     .fourth-container {
-        width: 500px;
+        width: 700px;
     }
     .fourth-container p {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     .fourth-container h1 {
         font-size: 2rem;
