@@ -1,377 +1,391 @@
-        body {
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f1f6f9;
-            /* background-image: url(img/background-img.png);*/
-            font-family: 'Nanum Gothic', sans-serif;
-        }
-        
-        .navigationbar li {
-            display: inline-block;
-            font-weight: 800;
-        }
-        
-        .navigationbar ul {
-            text-align: right;
-        }
-        
-        .navigationbar a {
-            text-decoration: none;
-            text-transform: capitalize;
-            color: white;
-        }
-        
-        .button {
-            border: none;
-            background-color: #14274e;
-            text-align: center;
-            border-radius: 5px;
-        }
-        
-        .navigationbar {
-            align-content: center;
-        }
-        
-        #navigationbar-container {
-            background-color: #394867;
-            display: flex;
-            padding: 20px;
-        }
-        
-        #logo-nav {
-            width: 200px;
-            margin-left: auto;
-            margin-right: auto;
-            display: block;
-        }
-        
-        #logo-size {
-            margin: auto;
-        }
-        
-        #bar-size {
-            width: 80%;
-        }
-        /* First section placement */
-        
-        .first-section-placement {
-            display: flex;
-            justify-content: center;
-        }
-        /* First container / box */
-        
-        .first-box {
-            padding-top: 25vh;
-            padding-bottom: auto;
-            display: flex;
-            justify-content: center;
-            padding-bottom: 25vh;
-            justify-content: center;
-        }
-        
-        .first-box-text {
-            width: 400px;
-        }
-        
-        .first-box-img {
-            width: 50%;
-            margin: auto;
-        }
-        /* First container img*/
-        
-        #first-img {
-            display: inline inline-block;
-            justify-content: center;
-        }
-        /* Second section placement*/
-        
-        .second-section-placement {
-            display: flex;
-            justify-content: center;
-        }
-        
-        .second-container-size {
-            display: flex;
-            justify-content: center;
-            padding: 20vh 0vh 20vh 0vh;
-        }
-        
-        .second-container {
-            width: 300px;
-            height: auto;
-            margin: 0px auto auto;
-            text-align: center;
-        }
-        
-        .second-container p {
-            padding-left: 4%;
-            padding-right: 4%;
-        }
-        
-        .second-section-img {
-            width: 150px;
-        }
-        /* Third section placement */
-        
-        .third-section-placement {
-            width: 100%;
-            height: 80vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        /*Third container - text size and img size */
-        
-        .third-container-size {
-            width: 80%;
-            display: flex;
-            align-content: center;
-            justify-content: center;
-        }
-        
-        .third-container-img {
-            margin-top: auto;
-            margin-bottom: auto;
-        }
-        
-        .third-container-txt {
-            align-content: center;
-            max-width: 500px;
-            min-width: 500px;
-        }
-        /* Third section size*/
-        
-        #third-img {
-            width: 300px;
-            height: auto;
-            margin-right: 30px;
-        }
-        
-        .fourth-section-placement {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background-color: #9ba4b4;
-            width: 100%;
-            height: 40vh;
-        }
-        
-        .fourth-container {
-            width: 600px;
-            text-align: center;
-        }
-        
-        footer {
-            border-top: 3px;
-            border-bottom: 0;
-            border-left: 0;
-            border-right: 0;
-            border-style: solid;
-            overflow-y: hidden;
-            background-color: #14274e;
-            display: flex;
-            justify-content: center;
-        }
-        
-        footer p {
-            text-align: center;
-            font-size: 1rem;
-        }
-        
-        footer h1 {
-            text-align: center;
-            font-size: 1.5rem;
-        }
-        
-        footer a {
-            color: white;
-            text-decoration: none;
-        }
-        
-        @media only screen and (max-width: 600px) {
-            /* Insert code suitable when max width is 500px*/
-            /* CSS for navigation bar */
-            .navigationbar li {
-                padding: 5px 5px 5px 10px;
-                font-size: 0.8rem;
-            }
-            .button {
-                padding: 7.5px 10px;
-                font-size: 0.8rem;
-                border-radius: 5px;
-            }
-            #navigationbar-container {
-                width: 90%;
-            }
-            #logo-size {
-                padding: 7.5px 10px;
-                width: 20%;
-            }
-            /* First container / box */
-            .first-box {
-                width: 90%;
-                display: flex;
-                justify-content: center;
-            }
-            .first-box-img {
-                padding-top: 0.5vh;
-                width: 100%;
-            }
-            /* Font size first container*/
-            .first-box h1 {
-                font-size: 1rem;
-            }
-            /*First container image */
-            #first-img {
-                width: 600px;
-            }
-            .first-box p {
-                font-size: 0.75rem;
-            }
-            /* Second section */
-            .second-container-size {
-                width: 90%;
-            }
-            .second-section-img {
-                width: 50%;
-            }
-            /* Font size second container*/
-            .second-container-size h1 {
-                font-size: 0.75rem;
-            }
-            .second-container-size p {
-                font-size: 0.5rem;
-            }
-            /* Third container*/
-            .third-container-txt h1 {
-                font-size: 1.25rem;
-            }
-            .third-container-txt p {
-                font-size: 0.75rem;
-            }
-            .fourth-container p {
-                font-size: 0.75rem;
-            }
-            .fourth-container h1 {
-                font-size: 1.25rem;
-            }
-        }
-        
-        @media only screen and (max-width: 1024) and (min-width: 601px) {
-            /* Insert code suitable for width between 500px and 831px */
-            /* CSS for navigation bar */
-            .navigationbar li {
-                padding: 7.5px 7.5px 7.5px 12.5px;
-                font-size: 1rem;
-            }
-            .button {
-                padding: 10px 12.5px;
-                border-radius: 6px;
-                font-size: 1rem;
-            }
-            #navigationbar-container {
-                width: 90%;
-            }
-            #logo-size {
-                width: 20%;
-            }
-            /* First container / box */
-            .first-box {
-                width: 90%;
-            }
-            /*First container image */
-            #first-img {
-                width: 100%;
-            }
-            /* Font size first container*/
-            .first-box h1 {
-                font-size: 2rem;
-            }
-            .first-box p {
-                font-size: 1.25rem;
-            }
-            /* Second section */
-            .second-container-size {
-                width: 100%;
-            }
-            /* Font size second container*/
-            .second-container-size h1 {
-                font-size: 1.15rem;
-            }
-            .second-container-size p {
-                font-size: 0.75rem;
-            }
-            /* Third container*/
-            .third-container-txt h1 {
-                font-size: 1.5rem;
-            }
-            .third-container-txt p {
-                font-size: 1rem;
-            }
-            .fourth-container p {
-                font-size: 1rem;
-            }
-            .fourth-container h1 {
-                font-size: 1.5rem;
-            }
-        }
-        
-        @media only screen and (min-width: 1025px) {
-            /* Insert code suitable for width more than 1025px */
-            /* CSS for navigation bar */
-            .navigationbar li {
-                padding: 12.5px 12.5px 12.5px 17.5px;
-                font-size: 1.25rem;
-            }
-            .navigationbar ul {
-                margin-right: 2vw;
-            }
-            .button {
-                padding: 15px 17.5px;
-                border-radius: 8px;
-                font-size: 1.25rem;
-            }
-            #navigationbar-container {
-                width: 100%;
-            }
-            /* First container / box */
-            .first-box {
-                width: 80%;
-            }
-            /*First container image */
-            #first-img {
-                width: 600px;
-            }
-            /* Font size first container*/
-            .first-box h1 {
-                font-size: 4rem;
-            }
-            .first-box p {
-                font-size: 2rem;
-            }
-            /* Second section placement*/
-            .second-container-size {
-                width: 80%;
-            }
-            /* Font size second container*/
-            .second-container-size h1 {
-                font-size: 1.5rem;
-            }
-            .second-container-size p {
-                font-size: 1.2rem;
-            }
-            /* Third container*/
-            .third-container-txt h1 {
-                font-size: 2rem;
-            }
-            .third-container-txt p {
-                font-size: 1.2rem;
-            }
-            .fourth-container p {
-                font-size: 1rem;
-            }
-            .fourth-container h1 {
-                font-size: 2rem;
-            }
-        }
+       body {
+           font-family: 'Roboto', sans-serif;
+           margin: 0;
+           padding: 0;
+           background-color: #f1f6f9;
+           /* background-image: url(img/background-img.png);*/
+           font-family: 'Nanum Gothic', sans-serif;
+       }
+       
+       .navigationbar li {
+           display: inline-block;
+           font-weight: 800;
+       }
+       
+       .navigationbar ul {
+           text-align: right;
+       }
+       
+       .navigationbar a {
+           text-decoration: none;
+           text-transform: capitalize;
+           color: white;
+       }
+       
+       .button {
+           border: none;
+           background-color: #14274e;
+           text-align: center;
+           border-radius: 5px;
+       }
+       
+       .navigationbar {
+           align-content: center;
+       }
+       
+       #navigationbar-container {
+           background-color: #394867;
+           display: flex;
+           padding: 20px;
+       }
+       
+       #logo-nav {
+           width: 200px;
+           margin-left: auto;
+           margin-right: auto;
+           display: block;
+       }
+       
+       #logo-size {
+           margin: auto;
+       }
+       
+       #bar-size {
+           width: 80%;
+       }
+       /* First section placement */
+       
+       .first-section-placement {
+           display: flex;
+           justify-content: center;
+       }
+       /* First container / box */
+       
+       .first-box {
+           padding-top: 25vh;
+           padding-bottom: auto;
+           padding-bottom: 25vh;
+           justify-content: center;
+       }
+       
+       .first-box-text {
+           width: 400px;
+       }
+       
+       .first-box-img {
+           width: 50%;
+       }
+       /* First container img*/
+       /* Second section placement*/
+       
+       .second-section-placement {
+           display: flex;
+           justify-content: center;
+       }
+       
+       .second-container-size {
+           justify-content: center;
+           padding: 20vh 0vh 20vh 0vh;
+       }
+       
+       .second-container {
+           width: 300px;
+           height: auto;
+           margin: 0px auto auto;
+           text-align: center;
+       }
+       
+       .second-container p {
+           padding-left: 4%;
+           padding-right: 4%;
+       }
+       
+       .second-section-img {
+           width: 150px;
+       }
+       /* Third section placement */
+       
+       .third-section-placement {
+           width: 100%;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+       }
+       /*Third container - text size and img size */
+       
+       .third-container-size {
+           width: 80%;
+           display: flex;
+           align-content: center;
+           justify-content: center;
+       }
+       
+       .third-container-img {
+           margin-top: auto;
+           margin-bottom: auto;
+       }
+       
+       .third-container-txt {
+           align-content: center;
+       }
+       /* Third section size*/
+       
+       #third-img {
+           width: 300px;
+           height: auto;
+           margin-right: 30px;
+       }
+       
+       .fourth-section-placement {
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           background-color: #9ba4b4;
+           width: 100%;
+           height: 40vh;
+       }
+       
+       .fourth-container {
+           text-align: center;
+       }
+       
+       footer {
+           border-top: 3px;
+           border-bottom: 0;
+           border-left: 0;
+           border-right: 0;
+           border-style: solid;
+           overflow-y: hidden;
+           background-color: #14274e;
+           display: flex;
+           justify-content: center;
+       }
+       
+       footer p {
+           text-align: center;
+           font-size: 1rem;
+       }
+       
+       footer h1 {
+           text-align: center;
+           font-size: 1.5rem;
+       }
+       
+       footer a {
+           color: white;
+           text-decoration: none;
+       }
+       
+       @media only screen and (max-width: 600px) {
+           /* Insert code suitable when max width is 500px*/
+           /* CSS for navigation bar */
+           .navigationbar li {
+               padding: 5px 5px 5px 10px;
+               font-size: 0.8rem;
+           }
+           .button {
+               padding: 7.5px 10px;
+               font-size: 0.8rem;
+               border-radius: 5px;
+           }
+           #navigationbar-container {
+               display: block;
+               padding: 0;
+           }
+           #logo-size {
+               padding: 7.5px 10px;
+               width: 100%;
+           }
+           /* First container / box */
+           .first-box {
+               padding: 10vh;
+               width: 90%;
+               justify-content: center;
+           }
+           .first-box-img {
+               padding-top: 0.5vh;
+               width: 100%;
+           }
+           /* Font size first container*/
+           .first-box h1 {
+               font-size: 2rem;
+           }
+           /*First container image */
+           #first-img {
+               width: 400px;
+           }
+           .first-box p {
+               font-size: 1rem;
+           }
+           /* Second section */
+           .second-container-size {
+               width: 90%;
+           }
+           .second-section-img {
+               width: 50%;
+           }
+           /* Font size second container*/
+           .second-container-size h1 {
+               font-size: 1.2rem;
+           }
+           .second-container-size p {
+               font-size: 1rem;
+           }
+           /* Third container*/
+           .third-container-size {
+               display: block;
+           }
+           .third-section-placement {
+               padding: 1vh 0 1vh 0;
+           }
+           .third-container-txt h1 {
+               text-align: center;
+               font-size: 1.5rem;
+           }
+           .third-container-img {
+               align-items: center;
+               justify-content: center;
+               width: 100%;
+           }
+           .third-container-txt p {
+               text-align: center;
+           }
+           .fourth-section-placement {
+               height: 20vh;
+           }
+           .fourth-container p {
+               width: 300px;
+           }
+           .fourth-container p {
+               font-size: 0.75rem;
+           }
+           .fourth-container h1 {
+               font-size: 1.25rem;
+           }
+       }
+       
+       @media only screen and (max-width: 1024px) and (min-width: 600px) {
+           /* Insert code suitable for width between 500px and 831px */
+           /* CSS for navigation bar */
+           .navigationbar li {
+               padding: 7.5px 7.5px 7.5px 12.5px;
+               font-size: 1rem;
+           }
+           .button {
+               padding: 10px 12.5px;
+               border-radius: 6px;
+               font-size: 1rem;
+           }
+           #navigationbar-container {
+               width: 90%;
+           }
+           #logo-size {
+               width: 20%;
+           }
+           .first-box {
+               width: 90%;
+           }
+           .first-text {
+               width: 90%;
+           }
+           #first-img {
+               width: 100%;
+           }
+           .first-box h1 {
+               font-size: 8rem;
+           }
+           .first-box p {
+               font-size: 1.25rem;
+           }
+           .second-container-size {
+               display: block;
+               width: 100%;
+           }
+           .second-container-size h1 {
+               font-size: 1.15rem;
+           }
+           .second-container-size p {
+               font-size: 0.75rem;
+           }
+           .third-container-txt h1 {
+               font-size: 1.5rem;
+           }
+           .third-container-txt p {
+               width: 300px;
+               font-size: 1rem;
+           }
+           .fourth-container p {
+               font-size: 1rem;
+           }
+           .fourth-container h1 {
+               font-size: 1.5rem;
+           }
+       }
+       
+       @media only screen and (min-width: 1025px) {
+           /* Insert code suitable for width more than 1025px */
+           /* CSS for navigation bar */
+           .navigationbar li {
+               padding: 12.5px 12.5px 12.5px 17.5px;
+               font-size: 1.25rem;
+           }
+           .navigationbar ul {
+               margin-right: 2vw;
+           }
+           .button {
+               padding: 15px 17.5px;
+               border-radius: 8px;
+               font-size: 1.25rem;
+           }
+           #navigationbar-container {
+               width: 100%;
+           }
+           .first-box {
+               display: flex;
+               align-items: center;
+           }
+           #first-box-img {
+               width: 600px;
+           }
+           .first-box h1 {
+               font-size: 4rem;
+           }
+           .first-box p {
+               font-size: 2rem;
+           }
+           /* Second section placement*/
+           .second-container-size {
+               display: flex;
+               width: 80%;
+           }
+           /* Font size second container*/
+           .second-container-size h1 {
+               font-size: 1.5rem;
+           }
+           .second-container-size p {
+               font-size: 1.2rem;
+           }
+           /* Third container*/
+           .third-section-placement {
+               height: 80vh;
+           }
+           .third-container-txt {
+               max-width: 500px;
+               min-width: 500px;
+           }
+           .third-container-txt h1 {
+               font-size: 2rem;
+           }
+           .third-container-txt p {
+               font-size: 1.2rem;
+           }
+           .fourth-container {
+               width: 500px;
+           }
+           .fourth-container p {
+               font-size: 1rem;
+           }
+           .fourth-container h1 {
+               font-size: 2rem;
+           }
+       }
