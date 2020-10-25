@@ -1,0 +1,58 @@
+
+@media only screen and (max-width: 1024px) and (min-width: 993px) {
+    /* Insert code suitable for width between 831px and 1024px */
+    .navigationbar li {
+        padding: 10px 10px 10px 15px;
+        font-size: 1.25rem;
+    }
+    .button {
+        padding: 12.5px 15px;
+        font-size: 1.25rem;
+    }
+    #navigationbar-container {
+        width: 90%;
+    }
+    #logo-size {
+        width: 40%;
+    }
+    /* First container / box */
+    .first-box {
+        width: 90%;
+    }
+    /*First container image */
+    #first-img {
+        width: 600px;
+    }
+    /* Font size first container*/
+    .first-box h1 {
+        font-size: 3rem;
+    }
+    .first-box p {
+        font-size: 1.5rem;
+    }
+    /* Second section placement*/
+    .second-container-size {
+        width: 90%;
+    }
+    /* Font size second container*/
+    .second-container-size h1 {
+        font-size: 1.5rem;
+    }
+    .second-container-size p {
+        font-size: 1rem;
+    }
+    /* Third container*/
+    .third-container-txt h1 {
+        font-size: 1.5rem;
+    }
+    .third-container-txt p {
+        font-size: 1rem;
+    }
+    .fourth-container p {
+        font-size: 1rem;
+    }
+    .fourth-container h1 {
+        font-size: 1.5rem;
+    }
+    
+}
