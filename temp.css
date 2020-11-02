@@ -5,6 +5,7 @@ body {
     background-color: #f1f6f9;
     /* background-image: url(img/background-img.png);*/
     font-family: 'Nanum Gothic', sans-serif;
+    overflow-x: hidden;
 }
 
 .navigationbar li {
@@ -36,7 +37,6 @@ body {
 #navigationbar-container {
     background-color: #394867;
     display: flex;
-    padding: 20px;
 }
 
 #logo-nav {
@@ -395,7 +395,6 @@ footer a {
     }
     #navigationbar-container {
         width: 100%;
-        padding: 10px;
     }
     #logo-size {
         width: 19%;
