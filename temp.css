@@ -283,7 +283,7 @@ footer a {
     }
 }
 
-@media only screen and (max-width: 600px) and (min-width: 365px) {
+@media only screen and (max-width: 600px) and (min-width: 366px) {
     /* Insert code suitable when max width is 500px*/
     /* CSS for navigation bar */
     .navigationbar li {
@@ -301,11 +301,11 @@ footer a {
     }
     #logo-size {
         padding: 7.5px 10px;
-        width: 100%;
+        width: 90%;
     }
     /* First container / box */
     .first-box {
-        padding: 10vh;
+        padding: 10vh 0 10vh 5vh;
         width: 90%;
         justify-content: center;
     }
