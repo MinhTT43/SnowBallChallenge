@@ -182,7 +182,101 @@ footer a {
     text-decoration: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width:365px) {
+    /* Insert code suitable when max width is 500px*/
+    /* CSS for navigation bar */
+    .navigationbar li {
+        padding: 4px 4px 4px 8px;
+        font-size: 0.65rem;
+    }
+    .button {
+        padding: 7.5px 10px;
+        font-size: 0.65rem;
+        border-radius: 4px;
+    }
+    #navigationbar-container {
+        display: block;
+        padding: 0;
+    }
+    #logo-size {
+        padding: 7.5px 10px;
+        width: 100%;
+    }
+    /* First container / box */
+    .first-box {
+        padding: 10vh;
+        width: 90%;
+        justify-content: center;
+        width: 100%;
+    }
+    .first-box-img {
+        padding-top: 0.5vh;
+        width: 100%;
+    }
+    /* Font size first container*/
+    .first-box h1 {
+        font-size: 2rem;
+    }
+    /*First container image */
+    #first-img {
+        width: 100%;
+    }
+    .first-box-text {
+        padding-left: 2%;
+        padding-right: 2%;
+        width: 350px;
+    }
+    .first-box p {
+        font-size: 1rem;
+    }
+    /* Second section */
+    .second-container-size {
+        width: 90%;
+    }
+    .second-section-img {
+        width: 50%;
+    }
+    /* Font size second container*/
+    .second-container-size h1 {
+        font-size: 1.2rem;
+    }
+    .second-container-size p {
+        font-size: 1rem;
+    }
+    /* Third container*/
+    .third-container-size {
+        display: block;
+    }
+    .third-section-placement {
+        padding: 1vh 0 1vh 0;
+    }
+    .third-container-txt h1 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .third-container-img {
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .third-container-txt p {
+        text-align: center;
+    }
+    .fourth-section-placement {
+        height: 20vh;
+    }
+    .fourth-container p {
+        width: 300px;
+    }
+    .fourth-container p {
+        font-size: 0.75rem;
+    }
+    .fourth-container h1 {
+        font-size: 1.25rem;
+    }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 365px) {
     /* Insert code suitable when max width is 500px*/
     /* CSS for navigation bar */
     .navigationbar li {
@@ -356,10 +450,6 @@ footer a {
     .fourth-container h1 {
         font-size: 2rem;
     }
-}
-
-.fourth-container h1 {
-    font-size: 1.25rem;
 }
 
 @media only screen and (min-width: 1025px) {
