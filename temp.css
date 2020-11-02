@@ -5,6 +5,7 @@ body {
     background-color: #f1f6f9;
     /* background-image: url(img/background-img.png);*/
     font-family: 'Nanum Gothic', sans-serif;
+    overflow-x: hidden;
 }
 
 .navigationbar li {
@@ -203,10 +204,13 @@ footer a {
     }
     /* First container / box */
     .first-box {
-        padding: 10vh;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        padding-right: 0;
+        padding-left: 2vw;
         width: 90%;
         justify-content: center;
-        width: 100%;
+        width: 375px;
     }
     .first-box-img {
         padding-top: 0.5vh;
