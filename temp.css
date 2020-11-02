@@ -54,12 +54,14 @@ body {
     width: 80%;
 }
 
+
 /* First section placement */
 
 .first-section-placement {
     display: flex;
     justify-content: center;
 }
+
 
 /* First container / box */
 
@@ -74,9 +76,10 @@ body {
     width: 400px;
 }
 
-.first-img {
-    width: 300px;
+.first-box-img {
+    width: 50%;
 }
+
 
 /* Second section placement*/
 
@@ -106,6 +109,7 @@ body {
     width: 150px;
 }
 
+
 /* Third section placement */
 
 .third-section-placement {
@@ -114,6 +118,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 
 /*Third container - text size and img size */
 
@@ -128,13 +133,13 @@ body {
     align-content: center;
 }
 
+
 /* Third section size*/
 
 #third-img {
     width: 300px;
     height: auto;
     margin-right: 30px;
-    transform: scaleX(-1);
 }
 
 .fourth-section-placement {
@@ -148,10 +153,6 @@ body {
 
 .fourth-container {
     text-align: center;
-}
-
-.fourth-container h1 {
-    font-size: 1.25rem;
 }
 
 footer {
@@ -273,6 +274,10 @@ footer a {
     .fourth-container h1 {
         font-size: 1.25rem;
     }
+    footer p {
+        text-align: center;
+        font-size: 0.65rem;
+    }
 }
 
 @media only screen and (max-width: 600px) and (min-width: 365px) {
@@ -307,25 +312,30 @@ footer a {
     }
     /* Font size first container*/
     .first-box h1 {
-        font-size: 2em;
+        font-size: 2rem;
     }
     /*First container image */
     #first-img {
-        width: 400px;
+        width: 365px;
+    }
+    .first-box-text {
+        padding-left: 2%;
+        padding-right: 2%;
+        width: 365px;
     }
     .first-box p {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     /* Second section */
     .second-container-size {
         width: 90%;
     }
     .second-section-img {
-        width: 30%;
+        width: 50%;
     }
     /* Font size second container*/
     .second-container-size h1 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     .second-container-size p {
         font-size: 1rem;
@@ -339,7 +349,7 @@ footer a {
     }
     .third-container-txt h1 {
         text-align: center;
-        font-size: rem;
+        font-size: 1.5rem;
     }
     .third-container-img {
         align-items: center;
@@ -350,20 +360,24 @@ footer a {
         text-align: center;
     }
     .fourth-section-placement {
-        height: 40vh;
+        height: 20vh;
     }
     .fourth-container p {
-        width: 400px;
+        width: 300px;
+    }
+    .fourth-container p {
+        font-size: 0.75rem;
     }
     .fourth-container h1 {
-        font-size: 1.75rem;
+        font-size: 1.25rem;
     }
-    .fourth-container p {
-        font-size: 1rem;
+    footer p {
+        text-align: center;
+        font-size: 0.75rem;
     }
 }
 
-@media only screen and (max-width: 1025px) and (min-width: 601px) {
+@media only screen and (max-width: 1024px) and (min-width: 600px) {
     body {
         overflow-x: hidden;
     }
@@ -390,18 +404,17 @@ footer a {
         width: 150px;
     }
     .first-box {
-        width: 500px;
+        padding: 10vh;
+        width: 90%;
         justify-content: center;
     }
-    .first-box-text {
-        width: 500px;
-    }
     .first-box-img {
+        padding-top: 0.5vh;
         width: 100%;
     }
     /* Font size first container*/
     .first-box h1 {
-        font-size: 2rem;
+        font-size: 3rem;
     }
     /*First container image */
     #first-img {
@@ -419,7 +432,7 @@ footer a {
     }
     /* Font size second container*/
     .second-container-size h1 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     .second-container-size p {
         font-size: 1rem;
@@ -450,6 +463,10 @@ footer a {
     .fourth-container h1 {
         font-size: 2rem;
     }
+    footer p {
+        text-align: center;
+        font-size: 1rem;
+    }
 }
 
 @media only screen and (min-width: 1025px) {
@@ -470,10 +487,6 @@ footer a {
     #navigationbar-container {
         width: 100%;
     }
-    .first-box-text {
-        width: 600px;
-        margin-right: 20px;
-    }
     .first-box {
         display: flex;
         align-items: center;
@@ -482,10 +495,10 @@ footer a {
         width: 600px;
     }
     .first-box h1 {
-        font-size: 2.25rem;
+        font-size: 4rem;
     }
     .first-box p {
-        font-size: 1.75rem;
+        font-size: 2rem;
     }
     /* Second section placement*/
     .second-container-size {
@@ -494,10 +507,10 @@ footer a {
     }
     /* Font size second container*/
     .second-container-size h1 {
-        font-size: 2.25rem;
+        font-size: 1.5rem;
     }
     .second-container-size p {
-        font-size: 1.75rem;
+        font-size: 1.2rem;
     }
     /* Third container*/
     .third-section-placement {
@@ -513,16 +526,17 @@ footer a {
     .third-container-txt p {
         font-size: 1.2rem;
     }
-    .third-container-img {
-        margin-right: 70px;
-    }
     .fourth-container {
-        width: 700px;
+        width: 500px;
     }
     .fourth-container p {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     .fourth-container h1 {
         font-size: 2rem;
+    }
+    footer p {
+        text-align: center;
+        font-size: 1rem;
     }
 }
