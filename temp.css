@@ -140,6 +140,7 @@ body {
     width: 300px;
     height: auto;
     margin-right: 30px;
+    transform: scaleX(-1);
 }
 
 .fourth-section-placement {
@@ -283,7 +284,7 @@ footer a {
     }
 }
 
-@media only screen and (max-width: 600px) and (min-width: 366px) {
+@media only screen and (max-width: 600px) and (min-width:365px) {
     /* Insert code suitable when max width is 500px*/
     /* CSS for navigation bar */
     .navigationbar li {
@@ -301,11 +302,11 @@ footer a {
     }
     #logo-size {
         padding: 7.5px 10px;
-        width: 90%;
+        width: 100%;
     }
     /* First container / box */
     .first-box {
-        padding: 10vh 0 10vh 5vh;
+        padding: 10vh;
         width: 90%;
         justify-content: center;
     }
@@ -315,30 +316,25 @@ footer a {
     }
     /* Font size first container*/
     .first-box h1 {
-        font-size: 2rem;
+        font-size: 2em;
     }
     /*First container image */
     #first-img {
-        width: 365px;
-    }
-    .first-box-text {
-        padding-left: 2%;
-        padding-right: 2%;
-        width: 365px;
+        width: 400px;
     }
     .first-box p {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     /* Second section */
     .second-container-size {
         width: 90%;
     }
     .second-section-img {
-        width: 50%;
+        width: 30%;
     }
     /* Font size second container*/
     .second-container-size h1 {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
     .second-container-size p {
         font-size: 1rem;
@@ -352,7 +348,7 @@ footer a {
     }
     .third-container-txt h1 {
         text-align: center;
-        font-size: 1.5rem;
+        font-size: rem;
     }
     .third-container-img {
         align-items: center;
@@ -363,29 +359,25 @@ footer a {
         text-align: center;
     }
     .fourth-section-placement {
-        height: 20vh;
+        height: 40vh;
     }
     .fourth-container p {
-        width: 300px;
-    }
-    .fourth-container p {
-        font-size: 0.75rem;
+        width: 400px;
     }
     .fourth-container h1 {
-        font-size: 1.25rem;
+        font-size: 1.75rem;
     }
-    footer p {
-        text-align: center;
-        font-size: 0.75rem;
+    .fourth-container p {
+        font-size: 1rem;
     }
 }
 
-@media only screen and (max-width: 1024px) and (min-width: 600px) {
+@media only screen and (max-width: 1025px) and (min-width: 600px) {
     body {
         overflow-x: hidden;
     }
     #bar-size {
-        width: 70%;
+        width: 60%;
     }
     .navigationbar li {
         padding: 7.5px 7.5px 7.5px 12.5px;
@@ -398,6 +390,7 @@ footer a {
     }
     #navigationbar-container {
         width: 100%;
+        padding: 10px;
     }
     #logo-size {
         width: 19%;
@@ -406,17 +399,18 @@ footer a {
         width: 150px;
     }
     .first-box {
-        padding: 10vh;
-        width: 90%;
+        width: 500px;
         justify-content: center;
     }
+    .first-box-text {
+        width: 500px;
+    }
     .first-box-img {
-        padding-top: 0.5vh;
         width: 100%;
     }
     /* Font size first container*/
     .first-box h1 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
     /*First container image */
     #first-img {
@@ -434,7 +428,7 @@ footer a {
     }
     /* Font size second container*/
     .second-container-size h1 {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
     .second-container-size p {
         font-size: 1rem;
@@ -465,10 +459,6 @@ footer a {
     .fourth-container h1 {
         font-size: 2rem;
     }
-    footer p {
-        text-align: center;
-        font-size: 1rem;
-    }
 }
 
 @media only screen and (min-width: 1025px) {
@@ -489,6 +479,10 @@ footer a {
     #navigationbar-container {
         width: 100%;
     }
+    .first-box-text {
+        width: 600px;
+        margin-right: 20px;
+    }
     .first-box {
         display: flex;
         align-items: center;
@@ -497,10 +491,10 @@ footer a {
         width: 600px;
     }
     .first-box h1 {
-        font-size: 4rem;
+        font-size: 2.25rem;
     }
     .first-box p {
-        font-size: 2rem;
+        font-size: 1.75rem;
     }
     /* Second section placement*/
     .second-container-size {
@@ -509,10 +503,10 @@ footer a {
     }
     /* Font size second container*/
     .second-container-size h1 {
-        font-size: 1.5rem;
+        font-size: 2.25rem;
     }
     .second-container-size p {
-        font-size: 1.2rem;
+        font-size: 1.75rem;
     }
     /* Third container*/
     .third-section-placement {
@@ -528,17 +522,16 @@ footer a {
     .third-container-txt p {
         font-size: 1.2rem;
     }
+    .third-container-img {
+        margin-right: 70px;
+    }
     .fourth-container {
-        width: 500px;
+        width: 700px;
     }
     .fourth-container p {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     .fourth-container h1 {
         font-size: 2rem;
-    }
-    footer p {
-        text-align: center;
-        font-size: 1rem;
     }
 }
