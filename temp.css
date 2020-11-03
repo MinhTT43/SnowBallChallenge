@@ -47,11 +47,11 @@ body {
 }
 
 #logo-size {
-    margin: auto;
+    width: auto;
 }
 
 #bar-size {
-    width: 80%;
+    width: 95%;
 }
 
 
@@ -67,7 +67,6 @@ body {
 
 .first-box {
     padding-top: 25vh;
-    padding-bottom: auto;
     padding-bottom: 25vh;
     justify-content: center;
 }
@@ -200,13 +199,12 @@ footer a {
         padding: 0;
     }
     #logo-size {
-        width: 365px;
+        width: auto;
     }
     /* First container / box */
     .first-box {
         padding-top: 10vh;
         padding-bottom: 10vh;
-        padding-right: 0;
         width: 90%;
         justify-content: center;
         width: 100%;
@@ -220,12 +218,10 @@ footer a {
         font-size: 2rem;
     }
     /*First container image */
-    #first-img {
+    .first-img {
         width: 100%;
     }
     .first-box-text {
-        padding-left: 2%;
-        padding-right: 2%;
         width: 100%;
     }
     .first-box p {
@@ -318,7 +314,7 @@ footer a {
     }
     /*First container image */
     #first-img {
-        width: 400px;
+        width: 1px;
     }
     .first-box p {
         font-size: 1.2rem;
@@ -370,7 +366,7 @@ footer a {
     }
 }
 
-@media only screen and (max-width: 1025px) and (min-width: 600px) {
+@media only screen and (max-width: 1025px) and (min-width: 601px) {
     body {
         overflow-x: hidden;
     }
@@ -459,7 +455,7 @@ footer a {
     }
 }
 
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1026px) {
     /* Insert code suitable for width more than 1025px */
     /* CSS for navigation bar */
     .navigationbar li {
