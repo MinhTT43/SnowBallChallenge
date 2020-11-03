@@ -295,14 +295,15 @@ footer a {
         padding: 0;
     }
     #logo-size {
-        padding: 7.5px 10px;
         width: 100%;
     }
     /* First container / box */
     .first-box {
-        padding: 10vh;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
         width: 90%;
         justify-content: center;
+        width: 100%;
     }
     .first-box-img {
         padding-top: 0.5vh;
@@ -310,14 +311,17 @@ footer a {
     }
     /* Font size first container*/
     .first-box h1 {
-        font-size: 2em;
+        font-size: 2rem;
     }
     /*First container image */
-    #first-img {
-        width: 1px;
+    .first-img {
+        width: 100%;
+    }
+    .first-box-text {
+        width: 100%;
     }
     .first-box p {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     /* Second section */
     .second-container-size {
@@ -356,7 +360,7 @@ footer a {
         height: 40vh;
     }
     .fourth-container p {
-        width: 400px;
+        width: auto;
     }
     .fourth-container h1 {
         font-size: 1.75rem;
