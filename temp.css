@@ -297,6 +297,10 @@ footer a {
     #logo-size {
         width: 100%;
     }
+    #bar-size {
+        display: flex;
+        justify-content: center;
+    }
     /* First container / box */
     .first-box {
         padding-top: 10vh;
