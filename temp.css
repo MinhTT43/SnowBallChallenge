@@ -200,18 +200,16 @@ footer a {
         padding: 0;
     }
     #logo-size {
-        padding: 7.5px 10px;
-        width: 100%;
+        width: 365px;
     }
     /* First container / box */
     .first-box {
         padding-top: 10vh;
         padding-bottom: 10vh;
         padding-right: 0;
-        padding-left: 2vw;
         width: 90%;
         justify-content: center;
-        width: 365px;
+        width: 100%;
     }
     .first-box-img {
         padding-top: 0.5vh;
@@ -228,7 +226,7 @@ footer a {
     .first-box-text {
         padding-left: 2%;
         padding-right: 2%;
-        width: 350px;
+        width: 100%;
     }
     .first-box p {
         font-size: 1rem;
@@ -284,7 +282,7 @@ footer a {
     }
 }
 
-@media only screen and (max-width: 600px) and (min-width:365px) {
+@media only screen and (max-width: 600px) and (min-width:366px) {
     /* Insert code suitable when max width is 500px*/
     /* CSS for navigation bar */
     .navigationbar li {
